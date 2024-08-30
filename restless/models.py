@@ -3,7 +3,7 @@ import six
 from django.core import serializers
 from django.db import models
 
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str as force_text
 
 __all__ = ['serialize', 'flatten']
 
